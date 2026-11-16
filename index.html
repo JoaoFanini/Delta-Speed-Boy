@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Delta Speed Boy | Motoboy em Congonhas, MG</title>
+<meta name="description" content="Delta Speed Boy: motoboy em Congonhas, MG, com eficiência e rapidez. Entregas todos os dias, das 10h às 23h. Agende pelo WhatsApp.">
+<!-- Prévia: não indexar. Remover esta linha quando o site for publicado de verdade. -->
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#000000">
+<meta property="og:title" content="Delta Speed Boy | Motoboy em Congonhas, MG">
+<meta property="og:description" content="Eficiência e rapidez. O parceiro ideal para o seu delivery.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:ital,wght@0,500;0,700;1,500;1,800&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Delta Speed Boy",
+  "description": "Motoboy e entregas expressas em Congonhas, MG",
+  "telephone": "+55 31 99714-1514",
+  "sameAs": ["https://www.instagram.com/deltaspeedboy"],
+  "areaServed": { "@type": "City", "name": "Congonhas, MG" },
+  "address": { "@type": "PostalAddress", "addressLocality": "Congonhas", "addressRegion": "MG", "addressCountry": "BR" },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+    "opens": "10:00",
+    "closes": "23:00"
+  }
+}
+</script>
+<style>
+  :root {
+    --vermelho: #dc1f26;
+    --vermelho-claro: #ff4a4a;
+    --preto: #000000;
+    --grafite: #161616;
+    --branco: #ffffff;
+    --fundo: #f2f2f2;
+    --linha: #e6e6e6;
+    --titulo: "Poppins", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    --texto: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    --sombra: rgba(0, 0, 0, .2) 0 10px 10px -5px;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; scroll-padding-top: 6.5rem; }
+  body {
+    margin: 0;
+    font-family: var(--texto);
+    font-size: 1rem;
+    line-height: 1.53;
+    color: var(--preto);
+    background: var(--fundo) radial-gradient(#dedede 1px, transparent 1.6px) 0 0 / 22px 22px;
+  }
+  svg { display: block; }
+  a { color: inherit; }
+  h1, h2, h3, p, ul, ol, fieldset, legend { margin: 0; padding: 0; }
+  ul, ol { list-style: none; }
+  fieldset { border: 0; min-width: 0; }
+  [hidden] { display: none !important; }
+  :focus-visible { outline: 3px solid var(--preto); outline-offset: 3px; }
+  .escuro :focus-visible, .rubro :focus-visible { outline-color: var(--branco); }
+
+  .wrap { width: min(1200px, 100% - 2rem); margin-inline: auto; }
+  .secao { margin-top: clamp(4rem, 9vw, 7rem); }
+
+  .t-display, .t-secao {
+    font-family: var(--titulo);
+    font-style: italic;
+    font-weight: 800;
+    letter-spacing: -.045em;
+    word-spacing: .08em;
+    text-wrap: balance;
+  }
+  .t-display { font-size: clamp(2.5rem, 7vw, 4.25rem); line-height: 1; }
+  .t-secao { font-size: clamp(2rem, 5vw, 3.25rem); line-height: 1.04; }
+  .centro { text-align: center; }
+  .lead { font-size: 1.125rem; line-height: 1.4; letter-spacing: -.02em; }
+
+  /* Botões */
+  .pill {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: .55rem;
+    min-height: 3.25rem;
+    padding: 1rem 2rem;
+    border: 0;
+    border-radius: 3000px;
+    font-family: var(--texto);
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.2;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform .12s ease;
+  }
+  .pill:hover { transform: translateY(-2px); }
+  .pill:active { transform: translateY(0); }
+  .pill svg { flex: none; width: 1.2rem; height: 1.2rem; }
+  .pill-vermelho { background: var(--vermelho); color: var(--branco); }
+  .pill-preto { background: var(--preto); color: var(--branco); }
+  .pill-branco { background: var(--branco); color: var(--preto); }
+  .pill-menor { min-height: 2.75rem; padding: .75rem 1.5rem; font-size: .9375rem; }
+  .par { display: flex; flex-wrap: wrap; gap: 1rem; }
+  .centro .par { justify-content: center; }
+
+  .etiqueta {
+    display: inline-block;
+    padding: .375rem .875rem;
+    border-radius: 3000px;
+    background: var(--vermelho);
+    color: var(--branco);
+    font-weight: 500;
+    font-size: .8125rem;
+    line-height: 1.2;
+    white-space: nowrap;
+  }
+
+  /* Marca */
+  .marca {
+    display: inline-flex;
+    align-items: baseline;
+    gap: .4rem;
+    font-family: var(--titulo);
+    font-style: italic;
+    line-height: 1;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  .marca b { font-weight: 800; font-size: 1.35rem; letter-spacing: -.02em; text-transform: uppercase; }
+  .marca i { font-weight: 500; font-size: 1.05rem; color: var(--vermelho); }
+  .escuro .marca i { color: var(--vermelho-claro); }
+
+  /* Navegação */
+  .nav-area { position: sticky; top: .75rem; z-index: 30; padding-top: .75rem; }
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    min-height: 4.25rem;
+    padding: .65rem .75rem .65rem 1.5rem;
+    background: var(--preto);
+    color: var(--branco);
+    border-radius: 30px;
+    box-shadow: var(--sombra);
+  }
+  .menu { display: none; gap: 1.5rem; font-weight: 500; font-size: .9375rem; }
+  .menu a { text-decoration: none; }
+  .menu a:hover { text-decoration: underline; text-underline-offset: .3em; }
+  @media (min-width: 900px) { .menu { display: flex; } }
+  @media (max-width: 460px) {
+    .nav { padding-left: 1.1rem; }
+    .marca b { font-size: 1.15rem; }
+    .marca i { font-size: .9rem; }
+    .nav .longo { display: none; }
+  }
+
+  /* Abertura */
+  .abertura { margin-top: 1.25rem; }
+  .capa {
+    position: relative;
+    overflow: hidden;
+    padding: clamp(2.25rem, 7vw, 5.5rem) clamp(1.5rem, 5vw, 4.5rem);
+    background: var(--preto) radial-gradient(#242424 1px, transparent 1.6px) 0 0 / 22px 22px;
+    color: var(--branco);
+    border-radius: 40px;
+  }
+  .capa > * { position: relative; z-index: 1; }
+  .capa .faixas {
+    position: absolute;
+    z-index: 0;
+    top: -10%;
+    right: 4%;
+    width: 196px;
+    height: 120%;
+    transform: skewX(-20deg);
+    background: repeating-linear-gradient(90deg, var(--vermelho) 0 36px, transparent 36px 80px);
+    display: none;
+  }
+  @media (min-width: 900px) { .capa .faixas { display: block; } }
+  .capa h1 { margin-top: 1.25rem; max-width: 13em; }
+  .capa .lead { margin-top: 1.5rem; max-width: 30rem; color: #e9e9e9; }
+  .capa .par { margin-top: 2rem; }
+  .nota { margin-top: 1.75rem; font-weight: 500; font-size: .9375rem; }
+  .estrelas { letter-spacing: .12em; margin-right: .4rem; color: var(--vermelho-claro); }
+
+  /* Janela do pedido */
+  .janela { margin-top: 1.5rem; background: var(--branco); border-radius: 16px; overflow: hidden; }
+  .janela-barra { display: flex; align-items: center; gap: .5rem; padding: 1rem 1.25rem; border-bottom: 1px solid var(--linha); }
+  .janela-barra i { width: .75rem; height: .75rem; border-radius: 50%; background: var(--linha); }
+  .janela-barra i:first-child { background: var(--vermelho); }
+  .janela-barra i:nth-child(2) { background: var(--preto); }
+  .janela-barra h2 { margin-left: .6rem; font-family: var(--texto); font-weight: 500; font-size: .875rem; }
+  .tela {
+    padding: clamp(1rem, 4vw, 3rem);
+    background: radial-gradient(var(--linha) 1.5px, transparent 2px) 0 0 / 20px 20px;
+  }
+  .fluxo {
+    display: grid;
+    gap: 2.5rem;
+    padding: clamp(1rem, 3vw, 2rem);
+    border: 3px solid var(--vermelho);
+    border-radius: 30px;
+  }
+  @media (min-width: 960px) { .fluxo { grid-template-columns: 1fr 1.15fr 1fr; align-items: stretch; } }
+
+  .etapa {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    background: var(--branco);
+    border: 1px solid var(--preto);
+    border-radius: 16px;
+  }
+  .etapa + .etapa::before, .etapa + .etapa::after { content: ""; position: absolute; }
+  .etapa + .etapa::before { left: 50%; top: -2.5rem; height: 2.5rem; border-left: 1px solid var(--preto); }
+  .etapa + .etapa::after {
+    left: calc(50% - 4px); top: -11px; width: 8px; height: 8px;
+    border-right: 1px solid var(--preto); border-bottom: 1px solid var(--preto);
+    transform: rotate(45deg);
+  }
+  @media (min-width: 960px) {
+    .etapa + .etapa::before { left: -2.5rem; top: 50%; width: 2.5rem; height: 0; border-left: 0; border-top: 1px solid var(--preto); }
+    .etapa + .etapa::after { left: -11px; top: calc(50% - 4px); transform: rotate(-45deg); }
+  }
+  .n {
+    flex: none;
+    display: grid;
+    place-items: center;
+    width: 1.75rem;
+    height: 1.75rem;
+    border-radius: 50%;
+    background: var(--preto);
+    color: var(--branco);
+    font-family: var(--texto);
+    font-weight: 700;
+    font-size: .875rem;
+  }
+  .etapa legend, .etapa h3 { font-family: var(--titulo); font-weight: 500; font-size: 1.125rem; letter-spacing: -.02em; line-height: 1.25; }
+  .etapa legend, .etapa-topo { display: flex; align-items: center; gap: .65rem; margin-bottom: 1.1rem; }
+  .etapa legend { float: left; width: 100%; }
+  .etapa legend + * { clear: both; }
+
+  .opcoes { display: flex; flex-wrap: wrap; gap: .5rem; }
+  .opcoes label { position: relative; cursor: pointer; }
+  .opcoes input { position: absolute; inset: 0; width: 100%; height: 100%; margin: 0; opacity: 0; cursor: pointer; }
+  .opcoes span {
+    display: block;
+    padding: .6rem 1.1rem;
+    border: 1px solid var(--preto);
+    border-radius: 3000px;
+    font-weight: 500;
+    font-size: .9375rem;
+    line-height: 1.2;
+  }
+  .opcoes input:checked + span { background: var(--vermelho); border-color: var(--vermelho); color: var(--branco); }
+  .opcoes input:focus-visible + span { outline: 3px solid var(--preto); outline-offset: 3px; }
+
+  .rotulo { display: block; font-weight: 500; font-size: .875rem; margin-bottom: .35rem; }
+  .campo {
+    width: 100%;
+    min-height: 3rem;
+    padding: .7rem 1rem;
+    border: 1px solid var(--preto);
+    border-radius: 16px;
+    font: inherit;
+    color: inherit;
+    background: var(--branco);
+  }
+  .campo::placeholder { color: #6e6e6e; }
+  .campo + .rotulo, .opcoes + .rotulo { margin-top: .9rem; }
+  .etapa .pill { width: 100%; margin-top: 1.25rem; padding-inline: 1.25rem; }
+  .aviso { margin-top: .8rem; font-size: .875rem; line-height: 1.5; }
+  .etapa > .etiqueta { position: absolute; top: -.85rem; right: 1rem; background: var(--preto); }
+
+  /* Avaliação */
+  .avaliacao {
+    display: grid;
+    gap: 2rem;
+    align-items: end;
+    padding: clamp(2rem, 5vw, 3rem);
+    background: var(--vermelho);
+    color: var(--branco);
+    border-radius: 40px;
+  }
+  @media (min-width: 860px) { .avaliacao { grid-template-columns: 1.5fr 1fr; gap: 3rem; } }
+  .avaliacao .media { font-family: var(--titulo); font-weight: 700; font-size: 1.6875rem; line-height: 1.2; letter-spacing: -.02em; }
+  .avaliacao .media span { letter-spacing: .1em; }
+  .avaliacao .citam { margin-top: 1rem; font-size: .9375rem; }
+  .palavras { margin-top: .6rem; display: flex; flex-wrap: wrap; gap: .4rem; }
+  .palavras li { padding: .4rem .85rem; border: 1px solid var(--branco); border-radius: 3000px; font-weight: 500; font-size: .875rem; line-height: 1.2; }
+  .avaliacao .pill { margin-top: 1.5rem; }
+
+  /* Serviços */
+  .cartoes { margin-top: clamp(2rem, 5vw, 3.5rem); display: grid; gap: 1rem; }
+  @media (min-width: 640px) { .cartoes { grid-template-columns: 1fr 1fr; } }
+  @media (min-width: 980px) { .cartoes { grid-template-columns: repeat(3, 1fr); gap: 1.5rem; } }
+  .cartao { padding: 2rem; background: var(--branco); border-radius: 30px; }
+  .cartao h3 { font-family: var(--titulo); font-weight: 500; font-size: 1.5rem; line-height: 1.2; letter-spacing: -.018em; margin-bottom: .6rem; }
+  .cartao .etiqueta { margin-bottom: .9rem; }
+
+  /* Empresas */
+  .empresas {
+    display: grid;
+    gap: 2rem;
+    padding: clamp(1.5rem, 5vw, 3.5rem);
+    background: var(--preto) radial-gradient(#242424 1px, transparent 1.6px) 0 0 / 22px 22px;
+    color: var(--branco);
+    border-radius: 40px;
+  }
+  @media (min-width: 920px) { .empresas { grid-template-columns: 1fr 1fr; gap: 3.5rem; align-items: center; } }
+  .empresas .lead { margin-top: 1.25rem; max-width: 28rem; color: #e9e9e9; }
+  .empresas .par { margin-top: 2rem; }
+  .pontos { display: grid; gap: .75rem; }
+  .pontos li { padding: 1.25rem 1.4rem; background: var(--grafite); border-left: 4px solid var(--vermelho); border-radius: 16px; }
+  .pontos h3 { font-weight: 700; font-size: 1rem; margin-bottom: .15rem; }
+  .pontos p { color: #d6d6d6; }
+
+  /* Área */
+  .area { padding: clamp(1.5rem, 5vw, 3rem); background: var(--branco); border-radius: 40px; }
+  .bairros { margin-top: 1.75rem; display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; }
+  .bairros li { padding: .5rem 1rem; border: 1px solid var(--preto); border-radius: 3000px; font-weight: 500; font-size: .9375rem; line-height: 1.2; }
+  .bairros li.resto { border: 0; padding-inline: .35rem; }
+  .info { margin-top: 2rem; padding-top: 2rem; border-top: 1px solid var(--linha); display: grid; gap: 1.5rem; }
+  @media (min-width: 720px) { .info { grid-template-columns: 1fr 1fr; gap: 3rem; } }
+  .info h3 { font-weight: 700; font-size: 1rem; margin-bottom: .15rem; }
+  .info .hora { font-family: var(--titulo); font-weight: 700; font-size: 1.6875rem; line-height: 1.2; letter-spacing: -.02em; }
+
+  /* Final */
+  .final .par { margin-top: 2rem; }
+
+  /* Rodapé */
+  .rodape { margin-top: clamp(4rem, 9vw, 7rem); padding-block: 2rem 6.5rem; border-top: 1px solid var(--linha); font-size: .875rem; line-height: 1.7; }
+  .rodape .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1.25rem 3rem; }
+  .rodape .marca { margin-bottom: .5rem; }
+  .rodape a { text-underline-offset: .2em; }
+
+  /* WhatsApp fixo */
+  .zap-fixo { position: fixed; right: 1rem; bottom: 1rem; z-index: 40; box-shadow: 0 0 0 3px var(--branco); }
+  @media (max-width: 560px) {
+    .zap-fixo { width: 3.25rem; padding: 0; }
+    .zap-fixo span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+  }
+
+  /* Selo F9 Coding */
+  .selo-f9 {
+    position: fixed;
+    left: 1rem;
+    bottom: 1rem;
+    z-index: 50;
+    display: inline-flex;
+    align-items: center;
+    gap: .55rem;
+    max-width: calc(100vw - 6.25rem);
+    padding: .4rem .9rem .4rem .4rem;
+    border-radius: 999px;
+    background: rgba(12, 16, 14, .92);
+    border: 1px solid rgba(255, 255, 255, .25);
+    color: #F2F5F3;
+    font-size: .8125rem;
+    font-weight: 500;
+    line-height: 1.25;
+    pointer-events: none;
+    user-select: none;
+  }
+  .selo-f9 svg { flex: none; width: 1.75rem; height: 1.75rem; border-radius: 50%; }
+  @media (max-width: 420px) { .selo-f9 { font-size: .72rem; border-radius: 22px; } }
+
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    .pill { transition: none; }
+    .pill:hover { transform: none; }
+  }
+</style>
+</head>
+<body>
+
+<div class="nav-area escuro">
+  <header class="nav wrap">
+    <a class="marca" href="#inicio" aria-label="Delta Speed Boy, início"><b>Delta</b><i>speed boy</i></a>
+    <nav class="menu" aria-label="Seções">
+      <a href="#pedido">Agendar entrega</a>
+      <a href="#servicos">O que a gente entrega</a>
+      <a href="#empresas">Para o seu delivery</a>
+      <a href="#area">Área e horário</a>
+    </nav>
+    <a class="pill pill-vermelho pill-menor" data-zap="Olá! Vim pelo site e quero agendar uma entrega." href="https://wa.me/553197141514" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 3a9 9 0 0 0-7.7 13.6L3 21l4.6-1.2A9 9 0 1 0 12 3Zm0 2a7 7 0 1 1-3.6 13l-.4-.2-2.1.6.6-2-.3-.4A7 7 0 0 1 12 5Z"/></svg>
+      <span>Chamar<span class="longo"> no WhatsApp</span></span>
+    </a>
+  </header>
+</div>
+
+<main id="inicio">
+
+  <section class="abertura wrap">
+    <div class="capa escuro">
+      <span class="faixas" aria-hidden="true"></span>
+      <span class="etiqueta">Eficiência e rapidez</span>
+      <h1 class="t-display">Motoboy em Congonhas: sua entrega rápida e bem cuidada.</h1>
+      <p class="lead">O parceiro ideal para o seu delivery. Atendimento todos os dias, das 10h às 23h.</p>
+      <div class="par">
+        <a class="pill pill-vermelho" href="#pedido">Agendar entrega</a>
+        <a class="pill pill-branco" data-zap="Olá! Vim pelo site e quero agendar uma entrega." href="https://wa.me/553197141514" target="_blank" rel="noopener">Chamar no WhatsApp</a>
+      </div>
+      <p class="nota"><span class="estrelas" aria-hidden="true">★★★★★</span>Nota 5,0 no Google, com 25 avaliações</p>
+    </div>
+  </section>
+
+  <section class="wrap" id="pedido">
+    <form class="janela" id="form-pedido" aria-labelledby="pedido-titulo">
+      <div class="janela-barra">
+        <i></i><i></i><i></i>
+        <h2 id="pedido-titulo">Agende a sua entrega</h2>
+      </div>
+      <div class="tela">
+        <div class="fluxo">
+
+          <fieldset class="etapa">
+            <legend><span class="n" aria-hidden="true">1</span>O que vai levar?</legend>
+            <div class="opcoes">
+              <label><input type="radio" name="item" value="Comida" checked><span>Comida</span></label>
+              <label><input type="radio" name="item" value="Encomenda"><span>Encomenda</span></label>
+              <label><input type="radio" name="item" value="Documento"><span>Documento</span></label>
+              <label><input type="radio" name="item" value="Outro"><span>Outro</span></label>
+            </div>
+          </fieldset>
+
+          <div class="etapa">
+            <div class="etapa-topo"><span class="n" aria-hidden="true">2</span><h3>De onde para onde?</h3></div>
+            <label class="rotulo" for="coleta">Buscar em</label>
+            <input class="campo" id="coleta" name="coleta" type="text" placeholder="Rua, número e bairro" autocomplete="off">
+            <label class="rotulo" for="entrega">Entregar em</label>
+            <input class="campo" id="entrega" name="entrega" type="text" placeholder="Rua, número, bairro ou portaria" autocomplete="off">
+          </div>
+
+          <fieldset class="etapa">
+            <span class="etiqueta">Já vai escrito</span>
+            <legend><span class="n" aria-hidden="true">3</span>Para quando?</legend>
+            <div class="opcoes">
+              <label><input type="radio" name="quando" value="agora" checked><span>Agora</span></label>
+              <label><input type="radio" name="quando" value="agendar"><span>Agendar</span></label>
+            </div>
+            <label class="rotulo" for="horario" id="horario-rotulo" hidden>Dia e horário</label>
+            <input class="campo" id="horario" name="horario" type="text" placeholder="Ex.: amanhã às 14h" autocomplete="off" hidden>
+            <button class="pill pill-vermelho" type="submit">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 3a9 9 0 0 0-7.7 13.6L3 21l4.6-1.2A9 9 0 1 0 12 3Zm0 2a7 7 0 1 1-3.6 13l-.4-.2-2.1.6.6-2-.3-.4A7 7 0 0 1 12 5Z"/></svg>
+              Enviar no WhatsApp
+            </button>
+            <p class="aviso">Abre o WhatsApp com o pedido pronto. Você confirma o valor por lá.</p>
+          </fieldset>
+
+        </div>
+      </div>
+    </form>
+  </section>
+
+  <section class="secao wrap" aria-labelledby="avaliacao-titulo">
+    <div class="avaliacao rubro">
+      <h2 class="t-secao" id="avaliacao-titulo">Já mandaram até bolo inteiro pela Delta. Chegou intacto.</h2>
+      <div>
+        <p class="media"><span aria-hidden="true">★★★★★</span><br>5,0 em 25 avaliações no Google</p>
+        <p class="citam">O que os clientes mais citam:</p>
+        <ul class="palavras">
+          <li>agilidade</li><li>responsabilidade</li><li>educação</li><li>tudo certinho</li>
+        </ul>
+        <a class="pill pill-preto pill-menor" href="https://www.google.com/maps/search/?api=1&query=DELTA+SPEED+BOY+Motoboy+em+Congonhas" target="_blank" rel="noopener">Ver avaliações no Google</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="secao wrap" id="servicos">
+    <h2 class="t-secao centro">O que a Delta entrega</h2>
+    <ul class="cartoes">
+      <li class="cartao">
+        <h3>Delivery de restaurantes e lanchonetes</h3>
+        <p>O pedido sai do seu balcão e chega rápido na casa do cliente.</p>
+      </li>
+      <li class="cartao">
+        <span class="etiqueta">Empresas da região</span>
+        <h3>Entrega nas portarias</h3>
+        <p>Levamos até a portaria das empresas da região, para quem está no turno.</p>
+      </li>
+      <li class="cartao">
+        <h3>Encomendas de lojas</h3>
+        <p>Buscamos na loja e entregamos direto ao cliente.</p>
+      </li>
+      <li class="cartao">
+        <h3>Documentos e pequenos volumes</h3>
+        <p>Papéis, impressos e pacotes entregues em mãos, com responsabilidade.</p>
+      </li>
+      <li class="cartao">
+        <h3>Itens delicados</h3>
+        <p>Bolo, flores, presentes. Vai com cuidado e chega do jeito que saiu.</p>
+      </li>
+      <li class="cartao">
+        <h3>Entrega agendada</h3>
+        <p>Combine o dia e o horário com antecedência e fique tranquilo.</p>
+      </li>
+    </ul>
+  </section>
+
+  <section class="secao wrap" id="empresas">
+    <div class="empresas escuro">
+      <div>
+        <h2 class="t-secao">O parceiro ideal para o seu delivery.</h2>
+        <p class="lead">Restaurante, lanchonete, loja ou gráfica: deixe as entregas do seu negócio com quem os clientes avaliam com nota máxima.</p>
+        <div class="par">
+          <a class="pill pill-vermelho" data-zap="Olá! Tenho um negócio em Congonhas e quero um orçamento para entregas." href="https://wa.me/553197141514" target="_blank" rel="noopener">Pedir orçamento</a>
+          <a class="pill pill-branco" href="#pedido">Agendar uma entrega</a>
+        </div>
+      </div>
+      <ul class="pontos">
+        <li>
+          <h3>Pontual</h3>
+          <p>Seu cliente recebe no horário combinado.</p>
+        </li>
+        <li>
+          <h3>Responsável com a mercadoria</h3>
+          <p>O produto chega bem conservado, do jeito que saiu da sua loja.</p>
+        </li>
+        <li>
+          <h3>Das 10h às 23h, todos os dias</h3>
+          <p>Cobre o almoço, o jantar e o fim de semana do seu delivery.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="secao wrap" id="area">
+    <div class="area">
+      <h2 class="t-secao">Congonhas e empresas da região</h2>
+      <ul class="bairros">
+        <li>Lucas Monteiro</li><li>Basílica</li><li>Matriz</li><li>Praia</li><li>Pires</li><li>Alvorada</li><li>Belvedere</li>
+        <li>Cristo Rei</li><li>Eldorado</li><li>Boa Vista</li><li>Nova Congonhas</li><li>Santa Rosa</li><li>Lobo Leite</li>
+        <li class="resto">e os demais bairros</li>
+      </ul>
+      <div class="info">
+        <div>
+          <h3>Horário de atendimento</h3>
+          <p class="hora">Todos os dias, das 10h às 23h</p>
+        </div>
+        <div>
+          <h3>Entrega para outra cidade?</h3>
+          <p>Consulte a disponibilidade pelo WhatsApp.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="secao wrap final centro">
+    <h2 class="t-display">Tem entrega pra fazer?</h2>
+    <div class="par">
+      <a class="pill pill-vermelho" data-zap="Olá! Vim pelo site e quero agendar uma entrega." href="https://wa.me/553197141514" target="_blank" rel="noopener">Chamar no WhatsApp</a>
+      <a class="pill pill-preto" href="tel:+5531997141514">(31) 99714-1514</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="rodape">
+  <div class="wrap">
+    <div>
+      <p class="marca"><b>Delta</b><i>speed boy</i></p>
+      <p>Motoboy e entregas expressas em Congonhas, MG</p>
+      <p>Todos os dias, das 10h às 23h</p>
+    </div>
+    <div>
+      <p>WhatsApp: <a href="https://wa.me/553197141514" target="_blank" rel="noopener">(31) 99714-1514</a></p>
+      <p>Telefone: <a href="tel:+5531994885288">(31) 99488-5288</a></p>
+      <p>Instagram: <a href="https://www.instagram.com/deltaspeedboy" target="_blank" rel="noopener">@deltaspeedboy</a></p>
+      <p>Site desenvolvido por F9 Coding</p>
+    </div>
+  </div>
+</footer>
+
+<a class="pill pill-vermelho zap-fixo" data-zap="Olá! Vim pelo site e quero agendar uma entrega." href="https://wa.me/553197141514" target="_blank" rel="noopener" aria-label="Chamar no WhatsApp">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 3a9 9 0 0 0-7.7 13.6L3 21l4.6-1.2A9 9 0 1 0 12 3Zm0 2a7 7 0 1 1-3.6 13l-.4-.2-2.1.6.6-2-.3-.4A7 7 0 0 1 12 5Z"/></svg>
+  <span>WhatsApp</span>
+</a>
+
+<div class="selo-f9" aria-hidden="true">
+  <svg viewBox="0 0 28 28">
+    <defs>
+      <linearGradient id="f9-fundo" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#17573F"/>
+        <stop offset="1" stop-color="#061E16"/>
+      </linearGradient>
+    </defs>
+    <rect width="28" height="28" fill="url(#f9-fundo)"/>
+    <path d="M9 7h11.5l-2.6 3.6H12.6v2.4h5.6l-2.4 3.4h-3.2V21H9Z" fill="#BDF5DD" fill-opacity=".82" stroke="#FFFFFF" stroke-width=".9" stroke-linejoin="round"/>
+  </svg>
+  Prévia criada por F9 Coding · uso não autorizado
+</div>
+
+<script>
+  (function () {
+    var NUMERO = "553197141514";
+
+    function link(texto) {
+      return "https://wa.me/" + NUMERO + "?text=" + encodeURIComponent(texto);
+    }
+
+    // Links simples: cada um abre o WhatsApp com uma mensagem pronta
+    document.querySelectorAll("a[data-zap]").forEach(function (a) {
+      a.href = link(a.getAttribute("data-zap"));
+    });
+
+    var form = document.getElementById("form-pedido");
+    var horario = document.getElementById("horario");
+    var horarioRotulo = document.getElementById("horario-rotulo");
+
+    // "Agendar" mostra o campo de dia e horário
+    form.querySelectorAll("input[name=quando]").forEach(function (r) {
+      r.addEventListener("change", function () {
+        var agendar = form.quando.value === "agendar";
+        horario.hidden = !agendar;
+        horarioRotulo.hidden = !agendar;
+        if (agendar) horario.focus();
+      });
+    });
+
+    // Pedido: monta a mensagem com o que a pessoa preencheu
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+      var item = form.querySelector("input[name=item]:checked").value;
+      var coleta = form.coleta.value.trim();
+      var entrega = form.entrega.value.trim();
+      var linhas = ["Olá! Quero agendar uma entrega pelo site.", "", "O que vai: " + item];
+      if (coleta) linhas.push("Buscar em: " + coleta);
+      if (entrega) linhas.push("Entregar em: " + entrega);
+      if (form.quando.value === "agendar") {
+        linhas.push("Para quando: " + (horario.value.trim() || "quero agendar um horário"));
+      } else {
+        linhas.push("Para quando: agora");
+      }
+      window.open(link(linhas.join("\n")), "_blank", "noopener");
+    });
+  })();
+</script>
+</body>
+</html>
